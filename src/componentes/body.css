@@ -1,0 +1,47 @@
+
+.body {
+    padding: 20px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border: 1px solid blue;
+  }
+  
+  .product img {
+    width: auto;
+    height: 120px;
+    margin-left: 10px;
+  }
+  
+  .product button {
+    margin-top: 10px;
+    background-color: #1630be;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #4b45a0;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  a{
+    color: black;
+  }

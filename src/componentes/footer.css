@@ -1,0 +1,36 @@
+
+.footer {
+    background-color: #1630be;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    display: inline;
+    margin: 0 100px;
+    margin-right: 170px;
+  }
+  
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .img2{
+    width: auto;
+    height: 150px;
+  }
+  
+  p{
+    text-align: center;
+  }

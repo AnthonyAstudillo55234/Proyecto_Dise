@@ -1,0 +1,35 @@
+/* src/components/Menu.css */
+.menu {
+    background-color: #1630be;
+    overflow: hidden;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    float: left;
+    margin-left: 170px;
+  }
+  
+  .menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #111;
+  }
+
+  img{
+    width: auto;
+    height: 50px;
+    margin-top: 1px;
+  }
+  

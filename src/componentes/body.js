@@ -14,7 +14,7 @@ const Body = () => {
           <p>Es un dispositivo capaz de suministrar energía eléctrica durante un corte de electricidad.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar ahora</button>
         </div>
         <div className="product">
           <img src={regulador} alt="Product" />
@@ -22,7 +22,7 @@ const Body = () => {
           <p>Un dispositivo electrónico diseñado para mantener un nivel de tensión constante o regulable.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar ahora</button>
         </div>
         <div className="product">
           <img src={extension} alt="Product" />
@@ -31,7 +31,7 @@ const Body = () => {
           <p>Es un dispositivo diseñado para proveer energía de manera temporal en los lugares donde un tomacorriente no alcanza.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar ahora</button>
         </div>
       </div>
       <div className="products">
@@ -41,7 +41,7 @@ const Body = () => {
           <p>Es un dispositivo capaz de suministrar energía eléctrica durante un corte de electricidad.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar ahora</button>
         </div>
         <div className="product">
           <img src={regulador} alt="Product" />
@@ -49,7 +49,7 @@ const Body = () => {
           <p>Un dispositivo electrónico diseñado para mantener un nivel de tensión constante o regulable.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar Ahora</button>
         </div>
         <div className="product">
           <img src={extension} alt="Product" />
@@ -57,7 +57,7 @@ const Body = () => {
           <p>Es un dispositivo diseñado para proveer energía de manera temporal en los lugares donde un tomacorriente no alcanza.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar Ahora</button>
         </div>
       </div>
       <div className="products">
@@ -67,7 +67,7 @@ const Body = () => {
           <p>Es un dispositivo capaz de suministrar energía eléctrica durante un corte de electricidad.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar ahora</button>
         </div>
         <div className="product">
           <img src={regulador} alt="Product" />
@@ -75,7 +75,7 @@ const Body = () => {
           <p>Un dispositivo electrónico diseñado para mantener un nivel de tensión constante o regulable.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar ahora</button>
         </div>
         <div className="product">
           <img src={extension} alt="Product" />
@@ -83,7 +83,7 @@ const Body = () => {
           <p>Es un dispositivo diseñado para proveer energía de manera temporal en los lugares donde un tomacorriente no alcanza.</p>
           <a href=''>Ver mas</a>
           <br></br>
-          <button>Buy Now</button>
+          <button>Comprar ahora</button>
         </div>
       </div>
     </div>

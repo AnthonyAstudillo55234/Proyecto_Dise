@@ -1,13 +1,13 @@
 import React from 'react';
 import './contacto.css';
-import logo from './img/logo.jpeg';
+import logo from './img/logo.png';
 
 function Contacto() {
     return(
         <div className='contact-container'>
             <header className='header'>
                 <img src={logo} alt='Logo de la empresa' className='logo' />
-                <p className='tagline'><h3>EcuaGizer</h3><p>Soluciones Eléctricas para</p><p>problemas corrientes</p></p>
+                <p className='tagline'><h3>EcuaGizer</h3><p>Soluciones Eléctricas para problemas corrientes</p></p>
             </header>
             <div className='cuerpo'> 
             <div className='contact-info'>

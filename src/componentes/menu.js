@@ -5,14 +5,21 @@ import logo from './img/logo.png';
 
 const Menu = () => {
   return (
-    <nav className="menu">
-      <ul>
-        <li><img src={logo} alt='Logo'></img></li>
-        <li><Link to="/home">Home</Link></li>
-        <li><Link to="/login">Iniciar sesión</Link></li>
-        <li><Link to="/contact">Contacto</Link></li>
-      </ul>
-    </nav>
+    <div class='menu_inicio'>
+      <div class='presentacion'>
+        <img src={logo} alt="Logo" />
+        <p class='nombre'>EcuaGizer<br></br></p>
+      </div>
+        <div class='opciones'>
+          <ul>
+            <li><a><Link to='/'>Inicio</Link></a></li>
+            <li><a><Link to='/contacto'>Contacto</Link></a></li>
+            <li><a><Link to='/login'>Iniciar Sesión</Link></a></li>
+            <li><a><Link to='/registrar'>Registrarse</Link></a></li>
+          </ul>
+          
+        </div>
+    </div>
   );
 };
 

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import './App.css';
 import Body from './componentes/body';
 import Login from './componentes/login';
+import Contacto from './componentes/contacto';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/" element={<Body />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </div>
     </Router>

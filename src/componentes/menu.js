@@ -10,7 +10,7 @@ const Menu = () => {
         <li><img src={logo} alt='Logo'></img></li>
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/login">Iniciar sesión</Link></li>
-        <li><Link to="/contact">Contacto</Link></li>
+        <li><Link to="/contacto">Contacto</Link></li>
       </ul>
     </nav>
   );

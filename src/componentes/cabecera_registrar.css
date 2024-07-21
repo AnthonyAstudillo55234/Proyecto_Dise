@@ -1,0 +1,37 @@
+.menu_presentacion
+{
+  background-color: #1630be;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.presentacion_cabecera
+{
+  display: flex;
+  align-items: center;
+}
+
+.nombre
+{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.descripcion
+{
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+  margin: 0;
+}
+
+.presentacion  img
+{
+  width: 110px;
+  height: 110px;
+  margin: 10px;
+  margin-left: 20px;
+}
+

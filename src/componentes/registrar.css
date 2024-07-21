@@ -1,0 +1,61 @@
+.formulario_registrar
+{
+    width: 500px;
+    height: auto;
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.formulario_registrar h1
+{
+    text-align: center;
+    color: #ffe600;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario_registrar label
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+.formulario_registrar input
+{
+    width: 450px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #ced6ff;
+    border: none;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario_registrar button
+{
+    background-color: #ffe600;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    animation: background-color 10s transform 10s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

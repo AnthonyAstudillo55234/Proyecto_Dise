@@ -1,36 +1,60 @@
-/* src/components/Menu.css */
-.menu {
-    background-color: #1630be;
-    overflow: hidden;
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu ul li {
-    float: left;
-    margin-left: 170px;
-  }
-  
-  .menu ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 27px 30px;
-    text-decoration: none;
-  }
-  
-  .menu ul li a:hover {
-    background-color: #111;
-  }
+.menu_inicio
+{
+  background-color: #1630be;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-  img{
-    width: auto;
-    height: 70px;
-    margin-top: 1px;
-    border-radius: 50px;
-  }
-  
+.presentacion
+{
+  display: flex;
+  align-items: center;
+
+}
+
+.presentacion p
+{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.presentacion  img
+{
+  width: 110px;
+  height: 110px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.opciones
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.opciones ul
+{
+  list-style: none;
+}
+
+.opciones ul li
+{
+  display: inline;
+}
+
+.opciones ul li a
+{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.opciones ul li a:hover
+{
+  background-color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}

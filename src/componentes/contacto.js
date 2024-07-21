@@ -1,16 +1,22 @@
 import React from 'react';
 import './contacto.css';
 import logo from './img/logo.png';
+import { Link } from 'react-router-dom';
 
 function Contacto() {
     return(
-        <div className='contact-container'>
-            <header className='header'>
+        <div className='contacto-contenedor'>
+            <header className='cabecera'>
                 <img src={logo} alt='Logo de la empresa' className='logo' />
-                <p className='tagline'><h3>EcuaGizer</h3><p>Soluciones Eléctricas para problemas corrientes</p></p>
+                <p className='texto'><h3>EcuaGizer</h3><p>Soluciones Eléctricas para problemas corrientes</p></p>
+                <div class='opciones'>
+          <ul>
+            <li><a><Link to='/'>Regresar al Inicio</Link></a></li>
+          </ul>
+          </div>
             </header>
             <div className='cuerpo'> 
-            <div className='contact-info'>
+            <div className='contacto-info'>
                 <h1>CONTACTO</h1>
                 <p><strong>Teléfono: </strong> <a href="https://wa.me/+593982694885" rel="noreferrer" target='_blank'>0982694885</a></p>
                 <p><strong>Email: </strong><a href="mailto:richard.soria@epn.edu.ec" rel="noreferrer" target='_blank'>richard.soria@epn.edu.ec</a></p>
@@ -18,7 +24,7 @@ function Contacto() {
                 <p><strong>Información de la Empresa:</strong></p>
                 <p>Empresa especializada en soluciones para los cortes de luz, contactanos para obtener más información </p>
             </div>
-            <div className='map-container'>
+            <div className='mapa-contenedor'>
                 <h2>Encuéntranos en el mapa</h2>
                 <iframe
                     title='Mapa de la tienda'

@@ -1,36 +1,42 @@
 
-.footer {
+footer {
     background-color: #1630be;
     color: white;
     padding: 10px 0;
   }
   
-  .footer ul {
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  .footer ul li {
+  footer ul li {
     display: inline;
     margin: 0 100px;
     margin-right: 170px;
   }
+  footer ul li h4 {
+    font-size: 15px;
+  }
   
-  .footer ul li a {
+  footer ul li p a {
+    font-size: 18px;
     color: white;
     text-decoration: none;
   }
   
-  .footer ul li a:hover {
-    text-decoration: underline;
+  footer ul li p a:hover {
+    color: rgb(236, 128, 128);
   }
 
   .img2{
-    width: auto;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
   
-  p{
+  .derechos{
     text-align: center;
   }

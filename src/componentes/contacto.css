@@ -1,0 +1,133 @@
+.contact-container {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.header {
+    display: flex;
+    background-color: #1630be;
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    font-family: Calibri;
+}
+
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-top: 35px;
+}
+
+.tagline {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h1 {
+    font-size: 28px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.map-container {
+    margin-top: 20px;
+    border: 3px solid #1630be;
+    border-radius: 8px;
+}
+
+.map-container h2 {
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.map-container iframe {
+    width: 100%;
+    border: none;
+}
+
+.cuerpo {
+    padding: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .tagline h3 {
+        font-size: 20px;
+    }
+
+    .tagline p {
+        font-size: 16px;
+    }
+
+    .contact-info h1 {
+        font-size: 24px;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+
+    .cuerpo {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .tagline h3 {
+        font-size: 18px;
+    }
+
+    .tagline p {
+        font-size: 14px;
+    }
+
+    .contact-info h1 {
+        font-size: 20px;
+    }
+
+    .map-container iframe {
+        height: 250px;
+    }
+
+    .cuerpo {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

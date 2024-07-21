@@ -13,11 +13,7 @@ footer ul {
     padding: 0;
   }
   
-  footer ul li {
-    display: inline;
-    margin: 0 100px;
-    margin-right: 170px;
-  }
+
   footer ul li h4 {
     font-size: 15px;
   }
@@ -35,6 +31,7 @@ footer ul {
   .img2{
     width: 100px;
     height: 100px;
+    border-radius: 50px;
   }
   
   .derechos{

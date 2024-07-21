@@ -1,0 +1,39 @@
+.login{
+    text-align: center;
+}
+h1{
+    margin-top: 100px;
+}
+input {
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #ced6ff;
+    height: 30px;
+    width: 20%;
+    border: none;
+    font-weight: bold;
+}
+button{
+    background-color: #ffe600;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    animation: background-color 10s transform 10s;
+}
+
+button:hover{
+    background-color: #b8a604;
+    transform: scale(1.1);
+}
+
+.btn{
+    width: 20%;
+}
+.foter{
+    background-color: #1630be;
+    margin-bottom: 0;
+    height: 142.5px;
+}

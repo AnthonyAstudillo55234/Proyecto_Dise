@@ -2,11 +2,14 @@ import React from 'react';
 import generador from './img/generador.jpg';
 import regulador from './img/regulador.jpg';
 import extension from './img/extension.jpg';
+import Menu from './menu';
+import Footer from './footer';
 import './body.css';
 
 const Body = () => {
   return (
     <div className="body">
+      <Menu/>
       <div className="products">
         <div className="product">
           <img src={generador} alt="Product" />
@@ -86,6 +89,7 @@ const Body = () => {
           <button>Comprar ahora</button>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    color: white;
+    background-color: #1630be;
+    font-family: Calibri;
+}
+img{
+   height: 100px;
+   width: auto; 
+   border-radius: 50px;
+   margin: 10px;
+}

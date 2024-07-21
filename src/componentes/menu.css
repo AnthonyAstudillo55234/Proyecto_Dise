@@ -19,7 +19,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 27px 30px;
     text-decoration: none;
   }
   
@@ -29,7 +29,8 @@
 
   img{
     width: auto;
-    height: 50px;
+    height: 70px;
     margin-top: 1px;
+    border-radius: 50px;
   }
   

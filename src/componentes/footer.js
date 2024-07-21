@@ -6,10 +6,12 @@ const Footer = () => {
   return (
     <footer>
       <ul>
-        <img src={logo2} className='img2' alt=''></img>
-        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><img src={logo2} className='img2' alt=''></img>
+        <p>Empresa especializada</p>
+        <p>en soluciones para los</p>
+        <p>cortes de luz</p></li>
         <li><h3>Av. Los Pinos y Juan Bereche</h3></li>
-        <li><h4>Telefono:</h4>
+        <li><h4>Teléfono:</h4>
         <p><a href="https://wa.me/+593982694885" rel="noreferrer" target='_blank'>0982694885</a></p>
           <h4>Email: </h4>
           <p><a href="mailto:richard.soria@epn.edu.ec" rel="noreferrer" target='_blank'>richard.soria@epn.edu.ec</a></p>

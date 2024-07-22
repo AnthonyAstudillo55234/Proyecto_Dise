@@ -63,7 +63,7 @@ function Registrar() {
           <input type='password' id='contrasena_confirmar' placeholder='Confirmar contraseña' />
 
           <button type="submit">Registrar cuenta</button>
-          <button type="button" onClick={regresar}>Regresar</button>
+          <button type="button" onClick={regresar}>Cancelar</button>
         </form>
       </div>
       <div className='foter'>

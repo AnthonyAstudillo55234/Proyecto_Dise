@@ -66,7 +66,8 @@ function Registrar() {
           <button type="button" onClick={regresar}>Regresar</button>
         </form>
       </div>
-      <Footer />
+      <div className='foter'>
+        </div>
     </div>
   );
 }

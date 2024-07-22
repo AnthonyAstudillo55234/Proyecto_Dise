@@ -54,6 +54,7 @@
 
 .opciones ul li a:hover
 {
+  padding: 10px;
   background-color: black;
   border-radius: 10px;
   font-weight: bold;

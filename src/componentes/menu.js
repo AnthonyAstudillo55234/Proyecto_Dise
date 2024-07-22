@@ -12,10 +12,10 @@ const Menu = () => {
       </div>
         <div class='opciones'>
           <ul>
-            <li><a><Link to='/'>Inicio</Link></a></li>
-            <li><a><Link to='/contacto'>Contacto</Link></a></li>
-            <li><a><Link to='/login'>Iniciar Sesión</Link></a></li>
-            <li><a><Link to='/registrar'>Registrarse</Link></a></li>
+            <li><Link to='/'>Inicio</Link></li>
+            <li><Link to='/contacto'>Contacto</Link></li>
+            <li><Link to='/login'>Iniciar Sesión</Link></li>
+            <li><Link to='/registrar'>Registrarse</Link></li>
           </ul>
           
         </div>

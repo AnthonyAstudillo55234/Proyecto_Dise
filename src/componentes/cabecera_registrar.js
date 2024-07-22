@@ -9,7 +9,7 @@ const Menu = () => {
       <div class='presentacion_cabecera'>
         <img src={logo} alt="Logo" />
         <p class='nombre'>EcuaGizer<br></br>
-        <p class='descripcion'>Soluciones eléctricas para problemas correintes</p></p>
+        <p class='descripcion'>Soluciones eléctricas para problemas corrientes</p></p>
       </div>
     </div>
   );

@@ -12,10 +12,8 @@ const Menu = () => {
       </div>
         <div class='opciones'>
           <ul>
-            <li><Link to='/'>Inicio</Link></li>
+            <li><Link to='/body'>Inicio</Link></li>
             <li><Link to='/contacto'>Contacto</Link></li>
-            <li><Link to='/login'>Iniciar Sesión</Link></li>
-            <li><Link to='/registrar'>Registrarse</Link></li>
           </ul>
           
         </div>

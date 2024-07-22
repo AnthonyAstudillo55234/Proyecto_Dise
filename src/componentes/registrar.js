@@ -34,7 +34,10 @@ function Registrar() {
     alert('Cuenta registrada con éxito');
     navigate('/');
   };
-
+  const regresar = (e) =>{
+    e.preventDefault();
+    navigate('/');
+  }
   return (
     <div>
       <Cabecera />
@@ -60,6 +63,7 @@ function Registrar() {
           <input type='password' id='contrasena_confirmar' placeholder='Confirmar contraseña' />
 
           <button type="submit">Registrar cuenta</button>
+          <button type="button" onClick={regresar}>Regresar</button>
         </form>
       </div>
       <Footer />

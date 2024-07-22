@@ -7,11 +7,11 @@ function Contacto() {
     return(
         <div className='contacto-contenedor'>
             <header className='cabecera'>
-                <img src={logo} alt='Logo de la empresa' className='logo' />
-                <p className='texto'><h3>EcuaGizer</h3><p>Soluciones Eléctricas para problemas corrientes</p></p>
+            <div className='log'><img src={logo} alt='Logo de la empresa' className='logo' />
+                <p className='texto'><h3>EcuaGizer</h3><p>Soluciones Eléctricas para problemas corrientes</p></p></div>
                 <div class='opciones'>
           <ul>
-            <li><a><Link to='/'>Regresar al Inicio</Link></a></li>
+            <li><a><Link to='/body'>Regresar al Inicio</Link></a></li>
           </ul>
           </div>
             </header>

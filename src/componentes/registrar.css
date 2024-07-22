@@ -44,7 +44,7 @@
 
 .formulario_registrar button
 {
-    background-color: #ffe600;
+    background-color: #f6e445;
     cursor: pointer;
     color: black;
     font-weight: bold;
@@ -59,3 +59,7 @@
     margin-right: auto;
 }
 
+.formulario_registrar button:hover{
+    background-color: #ffe600;
+    transform: scale(1.1);
+}

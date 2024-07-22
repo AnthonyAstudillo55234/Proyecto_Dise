@@ -33,7 +33,7 @@ function Login() {
         return;
       }else{
         alert("Se ha iniciado sesión correctamente.");
-        navigate('/');
+        navigate('/body');
       }
     } 
    };

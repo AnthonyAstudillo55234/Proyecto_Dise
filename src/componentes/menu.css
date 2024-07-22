@@ -47,6 +47,7 @@
 .opciones ul li a
 {
   color: white;
+  border-radius: 10px;
   font-size: 20px;
   text-decoration: none;
   padding: 20px;
@@ -54,8 +55,7 @@
 
 .opciones ul li a:hover
 {
-  padding: 10px;
   background-color: black;
-  border-radius: 10px;
+  
   font-weight: bold;
 }

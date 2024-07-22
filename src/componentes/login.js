@@ -46,7 +46,7 @@ function Login() {
    const recCla = (e) => {
     e.preventDefault();
     const cla = "Hola123*";
-    alert("El usuario es: "+ cla);
+    alert("La contraseña es: "+ cla);
     return;
    };
   return (

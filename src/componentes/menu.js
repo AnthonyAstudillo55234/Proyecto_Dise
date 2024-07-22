@@ -14,8 +14,8 @@ const Menu = () => {
           <ul>
             <li><Link to='/body'>Inicio</Link></li>
             <li><Link to='/contacto'>Contacto</Link></li>
+            <li><Link to='/'>Cerrar sesión</Link></li>
           </ul>
-          
         </div>
     </div>
   );
